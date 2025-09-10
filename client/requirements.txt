@@ -1,0 +1,8 @@
+opencv-python
+dlib
+numpy
+pygetwindow
+pyautogui
+keyboard
+mouse
+requests
