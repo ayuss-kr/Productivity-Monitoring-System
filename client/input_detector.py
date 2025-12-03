@@ -1,6 +1,4 @@
-"""
-Monitors system-wide keyboard and mouse activity in the background.
-"""
+
 import keyboard
 import mouse
 import threading

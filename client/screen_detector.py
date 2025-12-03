@@ -1,24 +1,18 @@
-"""
-Monitors the user's screen to identify the active application and classify its productivity.
-"""
+
 import pygetwindow as gw
 import time
 from enum import Enum, auto
 
-# Import settings from our central configuration file
 import config
 
 class ScreenActivity(Enum):
-    """Enumeration for the different classification results."""
     PRODUCTIVE = auto()
     UNPRODUCTIVE = auto()
     NEUTRAL = auto()
 
 class ScreenDetector:
-    """A class to detect and classify screen activity based on the active window title."""
 
     def __init__(self):
-        # We can add state here later, e.g., for motion detection
         pass
 
     def _get_active_window_title(self) -> str | None:

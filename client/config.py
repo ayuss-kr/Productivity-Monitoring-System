@@ -1,7 +1,4 @@
-"""
-Central configuration file for the client application.
-Stores static settings and keyword lists for easy modification.
-"""
+
 
 # --- System Configuration ---
 
@@ -36,7 +33,7 @@ PRODUCTIVE_KEYWORDS = [
 
 UNPRODUCTIVE_KEYWORDS = [
     # Social Media
-    'instagram', 'twitter', 'facebook', 'reddit', 'pinterest', 'tiktok',
+    'instagram', 'twitter', 'facebook', 'reddit', 'pinterest', 'tiktok', 'Producitvity Monitor'
     
     # Entertainment & Streaming
     'youtube', 'netflix', 'prime video', 'disney+', 'hulu',

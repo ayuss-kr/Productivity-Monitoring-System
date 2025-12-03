@@ -1,9 +1,4 @@
-"""
-The main entry point for the client-side productivity monitoring application.
 
-This script orchestrates all the individual sensor modules, makes a final
-productivity decision, and displays real-time feedback to the user.
-"""
 import cv2
 import time
 

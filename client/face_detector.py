@@ -1,6 +1,4 @@
-"""
-Handles webcam capture, face detection, and head pose estimation using OpenCV and dlib.
-"""
+
 import cv2
 import dlib
 import numpy as np
